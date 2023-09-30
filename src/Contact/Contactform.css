@@ -1,0 +1,96 @@
+.contact{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+.contact-form{
+    display: grid;
+    grid-template-rows: auto;
+    border: 1px solid rgb(255, 94, 0);
+    padding: 30px 30px;
+}
+.contact-form input{
+    margin-top: 20px;
+    width: 500px;
+    padding: 5px 5px;
+}
+label{
+    color: rgb(255, 94, 0);
+}
+.contact-form h1{
+    color: rgb(255, 94, 0);
+    font-size: 24px;
+}
+.contact-info{
+    display: block;
+    border: 1px solid rgb(255, 94, 0);
+    padding: 30px 30px;
+}
+.contact-address{
+    display: block;
+    line-height: 30px;
+}
+.address{
+    margin-top: 20px;
+}
+.address li{
+    color: rgb(0, 0, 0);
+}
+.contact-address h1{
+    color: rgb(255, 94, 0);
+    font-size: 24px;
+}
+.name{
+    margin-left: 10px;
+}
+.email{
+    margin-left: 20px;
+}
+.label-textarea{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+.textarea{
+    height: 100px;
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 94, 0);
+    border: 1.6px solid rgb(0, 0, 0);
+}
+.contact-form button{
+    margin-top: 30px;
+    width: 30%;
+}
+.contact-social{
+    margin-top: 100px;
+    display: block;
+    line-height: 40px;
+}
+.contact-social h1{
+    color: rgb(255, 94, 0);
+    font-size: 24px;
+}
+.social{
+    display: flex;
+    gap: 20px;
+}
+.social i{
+    color: black;
+}
+.social i:hover{
+    color: rgb(255, 94, 0);
+    font-size: 24px;
+}
+input{
+    color: black;
+    background-color: rgb(255, 94, 0);
+}
+::placeholder{
+    color: white;
+}
+label{
+    font-weight: 900;
+}

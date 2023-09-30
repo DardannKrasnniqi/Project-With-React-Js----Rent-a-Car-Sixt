@@ -1,0 +1,73 @@
+.blogs{
+    text-align: center;
+    margin-top: 150px;
+}
+.text-blogs h1{
+    color: rgb(255, 94, 0);
+    margin-top: 10px;
+}
+.card-blogs{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.info-blogs{
+    background-color: white;
+    text-align: left;
+    border: 1px solid gainsboro;
+}
+.info-blogs h1{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+}
+.info-blogs p{
+    display: block;
+    margin-top: 10px;
+    color: black;
+    padding: 10px 10px;
+    width: 100%;
+}
+.info-blogs .card-img-1{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.btn-readmore{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.bottom-blogs{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gainsboro;
+    padding: 10px 10px;
+    align-items: center;
+}
+.user-blogs{
+    display: flex;
+    font-size: 16px;
+    gap: 5px;
+}
+.user-blogs i{
+    color: rgb(255, 94, 0);
+}
+.date-blogs{
+    display: flex;
+    font-size: 16px;
+    gap: 5px;
+}
+.date-blogs i{
+    color: rgb(255, 94, 0);
+}
+.clock-blogs{
+    display: flex;
+    font-size: 16px;
+    gap: 5px;
+}
+.clock-blogs i{
+    color: rgb(255, 94, 0);
+}

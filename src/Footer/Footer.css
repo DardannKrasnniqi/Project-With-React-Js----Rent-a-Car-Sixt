@@ -1,0 +1,65 @@
+.footer{
+    display: flex;
+    margin-top: 150px;
+    justify-content:space-around;
+    background-color: rgb(255, 94, 0);
+    padding: 30px;
+}
+.top{
+    display: block;
+}
+.top h1{
+    font-size: 24px;
+    width: 200px;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.links{
+    display: block;
+    line-height: 40px;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+.links li:hover{
+    text-decoration: underline 1px white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.links h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+.address{
+    display: block;
+    line-height: 40px;
+}
+.address h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+.address li{
+    color: white;
+}
+.copyright{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.copyright h4{
+    color: rgb(0, 0, 0);
+}
+.copyright h3{
+    color: rgb(0, 0, 0);
+}
+.copyright b{
+    color: rgb(255, 94, 0);
+    font-size: 24px;
+}
